@@ -3,107 +3,107 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { layout: 'layout-home', title: 'Home'});
+  res.render('index', { layout: 'layout-home', title: 'Trang chủ'});
 });
 
 /* GET home page. */
 router.get('/index.html', function(req, res, next) {
-  res.render('index', { layout: 'layout-home', title: 'Home'});
+  res.render('index', { layout: 'layout-home', title: 'Trang chủ'});
 });
 
 /* GET about-us page */
 router.get('/about-us.html', function(req, res, next) {
-  res.render('about-us', { title: 'About us', page:'ABOUT US' });
+  res.render('about-us', { title: 'Giới thiệu', page:'GIỚI THIỆU' });
 });
 
 /* GET shop page */
 router.get('/shop.html', function(req, res, next) {
-  res.render('shop', { title: 'Shop page',  page:'SHOP PAGE'});
+  res.render('shop', { title: 'Cửa hàng',  page:'CỬA HÀNG'});
 });
 router.get('/shop-list.html', function(req, res, next) {
-  res.render('shop-list', { title: 'Shop page',  page:'SHOP PAGE'});
+  res.render('shop-list', { title: 'Cửa hàng',  page:'CỬA HÀNG'});
 });
 
 /* GET blog page */
 router.get('/blog-left-sidebar.html', function(req, res, next) {
-  res.render('blog-sidebar/blog-left-sidebar', { title: 'Blog left sidebar',  page:'BLOG LEFT SIDEBAR'});
+  res.render('blog-sidebar/blog-left-sidebar', { title: 'Bài viết',  page:'BÀI VIẾT'});
 });
 /* GET blog page */
 router.get('/blog-masonry.html', function(req, res, next) {
-  res.render('blog-sidebar/blog-masonry', { title: 'Blog masonry',  page:'BLOG MASONRY'});
+  res.render('blog-sidebar/blog-masonry', { title: 'Bài viết',  page:'BÀI VIẾT'});
 });
 /* GET blog page */
 router.get('/blog-right-sidebar.html', function(req, res, next) {
-  res.render('blog-sidebar/blog-right-sidebar', { title: 'Blog right sidebar',  page:'BLOG RIGHT SIDEBAR'});
+  res.render('blog-sidebar/blog-right-sidebar', { title: 'Bài viết',  page:'BÀI VIẾT'});
 });
 /* GET blog page */
 router.get('/blog-no-sidebar.html', function(req, res, next) {
-  res.render('blog-sidebar/blog-no-sidebar', { title: 'Blog no sidebar',  page:'BLOG NO SIDEBAR'});
+  res.render('blog-sidebar/blog-no-sidebar', { title: 'Bài viết',  page:'BÀI VIẾT'});
 });
 
 /* GET blog page */
 router.get('/blog-details-audio.html', function(req, res, next) {
-  res.render('blog-detail/blog-details-audio', { title: 'Blog details audio',  page:'BLOG DETAILS AUDIO'});
+  res.render('blog-detail/blog-details-audio', { title: 'Bài viết',  page:'BÀI VIẾT'});
 });
 
 /* GET blog page */
 router.get('/blog-details-gallery.html', function(req, res, next) {
-  res.render('blog-detail/blog-details-gallery', { title: 'Blog details gallery',  page:'BLOG DETAILS GALLERY'});
+  res.render('blog-detail/blog-details-gallery', { title: 'Bài viết',  page:'BÀI VIẾT'});
 });
 
 /* GET blog page */
 router.get('/blog-details-link.html', function(req, res, next) {
-  res.render('blog-detail/blog-details-link', { title: 'Blog details link',  page:'BLOG DETAILS LINK'});
+  res.render('blog-detail/blog-details-link', { title: 'Bài viết',  page:'BÀI VIẾT'});
 });
 
 /* GET blog page */
 router.get('/blog-details-quote.html', function(req, res, next) {
-  res.render('blog-detail/blog-details-quote', { title: 'Blog details quote',  page:'BLOG DETAILS QUOTE'});
+  res.render('blog-detail/blog-details-quote', { title: 'Bài viết',  page:'BÀI VIẾT'});
 });
 
 /* GET blog page */
 router.get('/blog-details-standerd.html', function(req, res, next) {
-  res.render('blog-detail/blog-details-standerd', { title: 'Blog details audio',  page:'BLOG DETAILS AUDIO'});
+  res.render('blog-detail/blog-details-standerd', { title: 'Bài viết',  page:'BÀI VIẾT'});
 });
 
 /* GET blog page */
 router.get('/blog-details-video.html', function(req, res, next) {
-  res.render('blog-detail/blog-details-video', { title: 'Blog details audio',  page:'BLOG DETAILS AUDIO'});
+  res.render('blog-detail/blog-details-video', { title: 'Bài viết',  page:'BÀI VIẾT'});
 });
 
 /* GET product page */
 router.get('/product-details.html', function(req, res, next) {
-  res.render('product-details', { title: 'Product details',  page:'PRODUCT DETAILS'});
+  res.render('product-details', { title: 'Chi tiết sản phẩm',  page:'CHI TIẾT SẢN PHẨM'});
 });
 
 /* GET cart page */
 router.get('/cart-page.html', function(req, res, next) {
-  res.render('cart-page', { title: 'Cart page',  page:'CART PAGE'});
+  res.render('cart-page', { title: 'Giỏ hàng',  page:'GIỎ HÀNG'});
 });
 
 /* GET checkout page */
 router.get('/checkout.html', function(req, res, next) {
-  res.render('checkout', { title: 'Checkout',  page:'CHECKOUT'});
+  res.render('checkout', { title: 'Thanh toán',  page:'THANH TOÁN'});
 });
 
 /* GET wishlist page */
 router.get('/wishlist.html', function(req, res, next) {
-  res.render('wishlist', { title: 'Wishlist',  page:'WISHLIST'});
+  res.render('wishlist', { title: 'Danh sách yêu thích',  page:'DANH SÁCH YÊU THÍCH'});
 });
 
 /* GET my account page */
 router.get('/my-account.html', function(req, res, next) {
-  res.render('my-account', { title: 'My account',  page:'MY ACCOUNT'});
+  res.render('my-account', { title: 'Tài khoản',  page:'TÀI KHOẢN'});
 });
 
 /* GET login register page */
 router.get('/login-register.html', function(req, res, next) {
-  res.render('login-register', { title: 'Login',  page:'LOGIN'});
+  res.render('login-register', { title: 'Đăng nhập / Đăng ký',  page:'ĐĂNG NHẬP / ĐĂNG KÝ'});
 });
 
 /* GET contact page */
 router.get('/contact.html', function(req, res, next) {
-  res.render('contact', { title: 'Contact',  page:'CONTACT'});
+  res.render('contact', { title: 'Liên hệ',  page:'LIÊN HỆ'});
 });
 
 
