@@ -107,5 +107,10 @@ router.get('/contact.html', function(req, res, next) {
 });
 
 
+/* GET forget page */
+router.get('/forget', function(req, res, next) {
+  res.render('forget-pass', { title: 'Quên mật khẩu',  page:'QUÊN MẬT KHẨU'});
+});
+
 
 module.exports = router;
